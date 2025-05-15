@@ -1,2 +1,1 @@
-# repo-template
-Boilerplate for building real-world Gno apps with dev tools and structure.
+WIP, see https://github.com/gnolang/repo-template/issues/1
