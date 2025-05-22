@@ -14,11 +14,6 @@ scaffold a real-world Gno setup.
 - Configured for external dependencies
 - Editor configurations included
 
-## Prerequisites
-
-- Go 1.21 or later
-- Gno development environment
-
 ## Getting Started
 
 1. Clone this repository:
@@ -29,7 +24,7 @@ scaffold a real-world Gno setup.
 
 2. Install dependencies:
    ```bash
-   make deps
+   make install_deps
    ```
 
 3. Run tests:
@@ -53,10 +48,5 @@ scaffold a real-world Gno setup.
 
 - `make test` - Run all tests
 - `make lint` - Run linter
-- `make clean` - Clean build artifacts
-- `make deps` - Install dependencies
+- `make install_deps` - Install dependencies
 - `make dev` - Run development node
-
-## License
-
-MIT
