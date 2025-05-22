@@ -12,19 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.21'
+      - uses: actions/setup-go@v5
 
       - name: Install Gno
-        run: |
-          git clone https://github.com/gnolang/gno.git
-          cd gno
-          make install
-
-      - name: Install dependencies
-        run: make deps
+        run: make install_deps
 
       - name: Run tests
         run: make test
