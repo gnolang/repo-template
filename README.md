@@ -54,7 +54,3 @@ This repository serves as a template for starting Gno projects with best practic
 - `make clean` - Clean build artifacts
 - `make deps` - Install dependencies
 - `make dev` - Run development node
-
-## License
-
-MIT
