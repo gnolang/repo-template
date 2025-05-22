@@ -1,12 +1,14 @@
 # Gno Project Template
 
-This repository serves as a template for starting Gno projects with best practices and proper tooling baked in. It helps contributors or teams quickly scaffold a real-world Gno setup.
+This repository serves as a template for starting Gno projects with best
+practices and proper tooling baked in. It helps contributors or teams quickly
+scaffold a real-world Gno setup.
 
 ## Features
 
 - Handles installing Go & Gno dependencies
 - Runs gnodev with a minimal default realm
-- Includes test and lint commands
+- Includes test and lint commangids
 - Integrated with GitHub Actions CI workflow
 - Supports both p/ and r/ structure
 - Configured for external dependencies
@@ -54,3 +56,7 @@ This repository serves as a template for starting Gno projects with best practic
 - `make clean` - Clean build artifacts
 - `make deps` - Install dependencies
 - `make dev` - Run development node
+
+## License
+
+MIT

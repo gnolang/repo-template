@@ -14,6 +14,7 @@ test:
 lint:
 	gno lint -v .
 
+# Format the code
 fmt:
 	gno fmt -w ./...
 

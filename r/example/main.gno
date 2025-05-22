@@ -1,9 +1,11 @@
 package example
 
-func Render(path string) string {
-	return "Hello, Gno!"
+// This function is called when the realm is deployed.
+func init() {
+	// ...
 }
 
-func OnCall() {
-	// This function is called when the realm is deployed
+// This function is called when the realm is rendered through gnoweb.
+func Render(path string) string {
+	return "Hello, Gno!"
 }
