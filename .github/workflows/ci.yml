@@ -4,7 +4,6 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
 
 jobs:
   test:
@@ -13,12 +12,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-go@v5
+        with:
+          go-version: stable
 
       - name: Install Gno
-        run: make install_deps
+        run: |
+          make install_deps
+          echo "$HOME/.gno/bin" >> "$GITHUB_PATH"
 
       - name: Run tests
         run: make test
 
       - name: Run linter
-        run: make lint 
+        run: make lint
