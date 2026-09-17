@@ -57,7 +57,7 @@ network:
 
 - **A testnet** — start here. Testnets are renamed and replaced regularly, so
   look up the current one and its RPC endpoint in
-  [Gno networks](https://docs.gno.land/resources/gnoland-networks), and get
+  [Gno networks](https://docs.gno.land/testnets), and get
   tokens from the [faucet](https://faucet.gno.land).
 - **[Mainnet](https://gno.land)** (`gnoland-1`, `https://rpc.gno.land:443`) has
   been live since 12 September 2026. Real GNOT, no faucet.
